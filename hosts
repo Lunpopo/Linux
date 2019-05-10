@@ -1,0 +1,25 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+192.168.2.175	node1
+192.168.2.176	node2
+192.168.2.178	develop
+192.168.2.179	snort
+
+192.168.2.12	www.test.com
+
+# github
+219.76.4.4 github-cloud.s3.amazonaws.com
+151.101.72.249 github.global.ssl.fastly.net  
+192.30.253.112 github.com
+
+# pycharm
+0.0.0.0 account.jetbrains.com
+0.0.0.0 www.jetbrains.com
