@@ -35,11 +35,20 @@ set termencoding=utf-8
 set encoding=utf-8
 " 开启语法高亮和行号
 syntax on
-set nu
+" 关闭显示行
+" set nu
+" 设置自动缩进
+set autoindent
+set cindent
 " 设置缩进
-set tabstop=4 
+" 使用4个空格代替tab
+set expandtab
+" Tab的宽度
+set tabstop=4
+" 统一缩进为4
 set softtabstop=4 
 set shiftwidth=4
+
 " 突出显示当前行"
 set cursorline
 " 突出显示当前列"

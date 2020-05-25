@@ -8,12 +8,10 @@
 255.255.255.255	broadcasthost
 ::1             localhost
 
-192.168.2.175	node1
-192.168.2.176	node2
-192.168.2.178	develop
-192.168.2.179	snort
-
-192.168.2.12	www.test.com
+192.168.2.1	node1
+192.168.2.2	node2
+192.168.2.8	develop
+192.168.2.9	snort
 
 # github
 219.76.4.4 github-cloud.s3.amazonaws.com
